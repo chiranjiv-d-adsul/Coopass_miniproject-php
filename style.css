@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+     #aa{
+
+      float: right;
+    }
+
+nav {
+    background-color: #8c1111;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 60px;
+
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    float: left;
+  }
+
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  nav a:hover {
+    /* background-color: #111; */
+    color:#212329;
+  }
+
+  .background-image1 {
+    background-image: url('/image/image.jpg');
+    background-size: 100%;
+    background-position: center;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: inherit;
+
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+  height: 300px;
+  background-color: #212329;
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  height: 5vh;
+  background-color: #212329;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 15px;
+}
+
+.footer-heading a:hover {
+  color: red;
+  transition: 0.3s ease-out;
+}
+
+#footer-email {
+  width: 250px;
+  height: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email-btn {
+  width: 100px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: #f9423d;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: #337af1;
+  transition: all 0.4s ease-out;
+}
+
+@media screen and (max-width: 1150px) {
+  .footer {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-heading {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  #footer-email {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  #footer-email-btn {
+    width: 80%;
+    max-width: 150px;
+  }
+}
